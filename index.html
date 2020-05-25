@@ -10,10 +10,12 @@
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/about.css">
     <link rel="stylesheet" href="css/skills.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/utilities.css">
     <title>Vikas Sahu</title>
 </head>
 <body>
-    <script src="js/index.js"></script>
     <main class="home-section">
         <nav>
             <div class="nav-bar">
@@ -24,7 +26,7 @@
                         <li><a href="#about-section">About</a></li>
                         <li><a href="#skills-section">Skills</a></li>
                         <li><a href="#">Project</a></li>
-                        <li><a href="#">contact</a></li>
+                        <li><a href="#contact-section">contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -141,5 +143,37 @@
             </div>
         </div>
     </section>
+    <section id="contact-section" class="contact">
+        <div class="contact-container">
+            <div class="heading">
+                <h1 style="color: #fff;">Contact</h1>
+                <h1 style="color:var(--yellow);margin-left:10px;">Me</h1>
+            </div>
+            <div class="contact-info">
+                <form action="">
+                    <div class="field-div1">
+                        <input type="text" placeholder="First name...">
+                        <input type="text" placeholder="Last name...">
+                    </div>
+                    <div class="field-div2">
+                        <input type="text" placeholder="Email..." style="margin-bottom: 2rem;" >
+                        <textarea name="description" id="" cols="30" rows="10" placeholder="Message..."></textarea>
+                    </div>
+                    <div class="field-div3">
+                        <button type="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div id="footer-content">
+            <p><i class="fa fa-code" aria-hidden="true"></i> with <i class="fa fa-heart" aria-hidden="true"></i> & <i class="fa fa-coffee" aria-hidden="true"></i> by me</p>
+        </div>
+        <div class="copyright">
+            <p><i class="fa fa-copyright" aria-hidden="true"></i> 2020 VikaS Sahu</p>
+        </div>        
+    </footer>
+    <script src="js/index.js"></script>
 </body>
 </html>

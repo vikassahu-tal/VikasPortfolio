@@ -1,7 +1,7 @@
 section.skills{
     background: var(--lightbg);
 }
-section h1{
+section.skills h1{
     text-align: center;
     color: #fff;
     font-size: 2rem;
@@ -10,11 +10,12 @@ section h1{
     padding-bottom:0rem;
 }
 section .box-container{
-    padding:3rem 10rem;
+    padding:6rem 10rem;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-column-gap:2rem;
-    grid-row-gap:2rem;   
+    grid-row-gap:2rem; 
+    padding-top:3rem;  
 }
 section .box-container .card{
     background: #424657;

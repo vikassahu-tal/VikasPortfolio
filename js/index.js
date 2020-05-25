@@ -9,3 +9,9 @@ function Hide(){
         temp.style.display = 'block'
     }
 }
+function restartAbout(){
+    var temp=document.getElementById('about-section');
+    console.log(temp);
+    temp[0].style.display ='none';
+    temp[0].style.display = 'flex'; 
+}

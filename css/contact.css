@@ -1,0 +1,46 @@
+section.contact{
+    background: var(--darkbg);
+}
+section.contact .contact-container{
+    padding:5rem 10rem;
+}
+section.contact .contact-container .heading{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-bottom: 2rem;
+}
+section.contact .contact-container .contact-info .field-div1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 2rem;
+    margin-bottom: 2rem;
+}
+section.contact .contact-container .contact-info .field-div2{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+section.contact .contact-container .contact-info .field-div3{
+    text-align: center;
+}
+section.contact .contact-container .contact-info .field-div3 button{
+    padding: .5rem 1.5rem;
+    font-size: 1rem;
+    border:2px solid #ccc;
+    outline: none;
+    font-weight: 600;
+    color: #fff;
+    background: var(--darkbg);
+    letter-spacing: 1px;
+    box-shadow:1px 1px 10px rgba(0,0,0,0.2) ;
+}
+section.contact .contact-container .contact-info .field-div3 button:hover{
+    background: var(--yellow);
+    color: var(--darkbg);
+    BORDER:1PX solid #000;
+}
+section.contact .contact-container .contact-info .field-div3 button:active{
+    transform: translateY(-5%);
+    transition: all .3s ease;
+}

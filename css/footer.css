@@ -1,0 +1,27 @@
+footer{
+    background: var(--lightbg);
+    padding:2rem 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer #footer-content {
+    color: #fff;
+    letter-spacing: .5px;
+    word-spacing: 1px;
+    margin-bottom: 1rem;
+}
+footer .copyright{
+    color: #fff;
+    font-size: .8rem;
+}
+.fa.fa-code{
+    color: rgb(150, 150, 223);
+}
+.fa.fa-heart{
+    color: red;
+}
+.fa.fa-coffee{
+    color: burlywood;
+}

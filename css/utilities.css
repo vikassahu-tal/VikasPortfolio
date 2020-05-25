@@ -1,3 +1,17 @@
 .flex{
     display: flex;
 }
+form input{
+    padding: .4rem 1rem;
+    font-size: 1.2rem;
+    border:1px solid #ccc; 
+}
+form input:focus{
+    outline: none;
+    background: rgb(236, 234, 234);
+}
+form textarea{
+        padding: .4rem 1rem;
+        font-size: 1.4rem;
+        border:1px solid #ccc; 
+}

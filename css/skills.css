@@ -1,0 +1,45 @@
+section.skills{
+    background: var(--lightbg);
+}
+section h1{
+    text-align: center;
+    color: #fff;
+    font-size: 2rem;
+    padding:2rem 0;
+    color: var(--yellow);
+    padding-bottom:0rem;
+}
+section .box-container{
+    padding:3rem 10rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap:2rem;
+    grid-row-gap:2rem;   
+}
+section .box-container .card{
+    background: #424657;
+    box-sizing: border-box;
+    height: 230px;
+    padding: 4rem 3rem;
+    color: white;
+    text-align: center;
+    
+}
+section .box-container .card:hover{
+    background: var(--yellow);
+    transform: scale(1.07);
+    transition: all .3s ease;
+    color: #424657;
+}
+section .box-container .card .icon{
+    margin:0 1rem;
+}
+section .box-container .card .info h2{
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+section .box-container .card .info h1{
+    font-size: 1.2rem;
+    color: var(--yellow);
+    letter-spacing: 2px;
+}

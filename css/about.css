@@ -1,0 +1,44 @@
+section.about{
+    background: var(--darkbg);
+}
+.about-content{
+    padding: 4rem 9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-content .info h4 {
+    font-size: 2.5rem;
+    color:#fff;
+    margin-bottom: 10px; 
+}
+
+.about-content .info h6{
+    font-size: 1.5rem;
+    color:#fff;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+.about-content .info p{
+    font-size: 1rem;
+    color:#fff;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.exp-block .experience{
+    display: flex;
+    align-items:flex-end;
+}
+
+.exp-block .experience h1{
+    font-size: 5rem;
+    color: var(--yellow);
+}
+
+.exp-block .experience p{
+    width: 6rem;
+    margin-left: 10px;
+}
+
+
+

@@ -74,6 +74,9 @@ section.about{
     .info{
         text-align: center;
     }
+    img{
+        width:100%;
+    }
     .info h4{
         justify-content: center;
     }

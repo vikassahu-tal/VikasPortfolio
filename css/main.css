@@ -119,12 +119,16 @@ main.home-section{
 @media (max-width:570px){
     .home-grid{
         padding:4rem 1rem;
-        grid-template-columns: 1fr;
+        grid-template-columns: 100%;
     }
     .half{
         display: none;
     }
+    .home-grid .div1{
+        position: static;
+    }
     .home-grid .div2{
         margin-top: 8rem;
+        justify-content: center;
     }
 }

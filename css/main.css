@@ -24,7 +24,7 @@ main.home-section{
     background:var(--lightbg);
 }
 .home-grid{
-    padding: 9rem 6rem;
+    padding: 10rem 6rem;
     display: grid;
     grid-template-columns: 60% 40%;
 }
@@ -38,7 +38,7 @@ main.home-section{
     height: auto;
     border-radius:10px;
     width: 70%;
-    top: -60%;
+    top: -82%;
 }
 .name-title{
     text-transform: uppercase;
@@ -134,6 +134,6 @@ main.home-section{
         justify-content: center;
     }
     .name-heading .name-title{
-        right: 30px;
+        right: 40px;
     }
 }

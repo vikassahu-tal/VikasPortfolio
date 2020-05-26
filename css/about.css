@@ -63,3 +63,21 @@ section.about{
 .about-content .info .exp-block{
     animation: move 2.0s 2.5s backwards;
 }
+
+
+@media (max-width:570px){
+    
+    .about-content {
+        padding: 4rem 1rem;
+        flex-direction: column;
+    }
+    .info{
+        text-align: center;
+    }
+    .info h4{
+        justify-content: center;
+    }
+    .exp-block .experience{
+        justify-content: center;
+    }
+}

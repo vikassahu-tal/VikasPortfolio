@@ -44,3 +44,10 @@ section .box-container .card .info h1{
     color: var(--yellow);
     letter-spacing: 2px;
 }
+
+@media (max-width:570px){
+    section .box-container {
+        padding: 4rem 1rem;
+        grid-template-columns: repeat(1,1fr);
+    }
+}

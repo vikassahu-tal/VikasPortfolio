@@ -1,3 +1,9 @@
+@import "about.css";
+@import "contact.css";
+@import "footer.css";
+@import "skills.css";
+@import "utilities.css";
+
 :root{
     --lightbg:#343647;
     --darkbg:#252734;
@@ -15,15 +21,12 @@ body{
      font-family: 'Poppins', sans-serif;
 }
 main.home-section{
-    height: 100vh;
-    width: calc(100vw -10px);
     background:var(--lightbg);
 }
 .home-grid{
+    padding: 9rem 6rem;
     display: grid;
     grid-template-columns: 60% 40%;
-    grid-template-rows:calc(100vh - 20px);
-   
 }
 .home-grid .div1{
     position: relative;
@@ -34,8 +37,8 @@ main.home-section{
     position: absolute;
     height: auto;
     border-radius:10px;
-    width: 60%;
-    top: -49px;   
+    width: 70%;
+    top: -60%;
 }
 .name-title{
     text-transform: uppercase;
@@ -44,7 +47,7 @@ main.home-section{
     color: white;
     position: absolute; 
     right:60px;
-    top:30%;  
+    /* top:30%;   */
 }
 
 .name-title::after{
@@ -89,7 +92,6 @@ main.home-section{
     margin-left: 30px;
 }
 
-
 @keyframes move{
     from{
         opacity: 0;
@@ -112,4 +114,17 @@ main.home-section{
 }
 .home-grid .div2 .info .social-media{
     animation: move 1.6s 2s backwards;
+}
+
+@media (max-width:570px){
+    .home-grid{
+        padding:4rem 1rem;
+        grid-template-columns: 1fr;
+    }
+    .half{
+        display: none;
+    }
+    .home-grid .div2{
+        margin-top: 8rem;
+    }
 }

@@ -1,4 +1,4 @@
-@import "about.css";
+/* @import "about.css"; */
 @import "contact.css";
 @import "footer.css";
 @import "skills.css";
@@ -47,6 +47,7 @@ main.home-section{
     color: white;
     position: absolute; 
     right:60px;
+    /* color: var(--yellow); */
     /* top:30%;   */
 }
 
@@ -118,8 +119,9 @@ main.home-section{
 
 @media (max-width:570px){
     .home-grid{
-        padding:4rem 1rem;
+        padding:6rem 1rem;
         grid-template-columns: 100%;
+        text-align: center;
     }
     .half{
         display: none;
@@ -130,5 +132,8 @@ main.home-section{
     .home-grid .div2{
         margin-top: 8rem;
         justify-content: center;
+    }
+    .name-heading .name-title{
+        right: 30px;
     }
 }

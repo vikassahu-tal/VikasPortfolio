@@ -66,13 +66,13 @@ section.about{
 
 
 @media (max-width:570px){
-    
     .about-content {
         padding: 4rem 1rem;
         flex-direction: column;
     }
-    .info{
+    #about-section .about-content .info{
         text-align: center;
+        margin-top: 2rem;
     }
     img{
         width:100%;

@@ -32,6 +32,10 @@ section .box-container .card:hover{
     transition: all .3s ease;
     color: #424657;
 }
+section .box-container .card:hover .info h1{
+    color: #424657;
+}
+
 section .box-container .card .icon{
     margin:0 1rem;
 }
